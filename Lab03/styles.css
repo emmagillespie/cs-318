@@ -1,0 +1,17 @@
+h3{background-color: blue;}
+h4{color: chartreuse;}
+main{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;} 
+main{font-size: 30rem;}
+p{color: blueviolet;}
+p{text-align: right;}
+p{font-family: Georgia, 'Times New Roman', Times, serif;}
+h1{font-weight: 400;}
+h1{background-color: blueviolet;}
+h2{font-weight: 800;}
+h2{margin: 1rem;}
+main>p {margin: 6rem;}
+h2 {font-weight: 400;} 
+h2 {text-align: right;}
+ul+li+li+li {font-weight: 600;}
+h2+ol {color: blue;}
+p {background-color: aqua;}
