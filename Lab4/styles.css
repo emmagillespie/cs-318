@@ -21,7 +21,7 @@ main {
 }
 .home-content img {
     width: 38%; 
-    vertical-align top;
+    vertical-align: top;
 }.jellies, .whales, .creatures {
     background-color: rgb(19, 107, 114); 
     padding: 1rem;                       
@@ -30,6 +30,7 @@ main {
     vertical-align: top;                 
 }
 img {
+    max-width:100%;
 }
 .whales {
     width: 46%;                  
