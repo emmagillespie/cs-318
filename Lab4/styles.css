@@ -20,7 +20,7 @@ main {
     display: inline-block; 
     width: 60%; 
 }
-.home-content img {
+.home-content img{
     width: 38%; 
     vertical-align: top;
 }.jellies, .whales, .creatures {
