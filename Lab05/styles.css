@@ -18,7 +18,8 @@ header>nav>a {
     background-color: #fff;
     color:#275218 ;
     text-decoration: none;
-    padding: 1rem
+    padding: 1rem;
+    /*Missing display:inline-block;*/
 }
 header>nav {
     padding: 1rem;
