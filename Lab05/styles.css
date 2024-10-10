@@ -19,7 +19,7 @@ header>nav>a {
     color:#275218 ;
     text-decoration: none;
     padding: 1rem;
-    /*Missing display:inline-block;*/
+    display:inline-block;
 }
 header>nav {
     padding: 1rem;
