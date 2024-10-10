@@ -7,11 +7,11 @@ margin: 0;
 header{
 background-color:rgb(25,64,100);
 padding: 2rem;
+text-align: center; 
 
 }
 header a {
     color: rgb(66, 211, 221); 
-    text-align: center;  /*This should be on the header not header a*/ 
 }
 main {
     padding: 1rem; 
