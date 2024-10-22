@@ -2,7 +2,6 @@ body {
   font-family: 'Georgia', serif; 
   margin: 0;
   padding: 0;
-  line-height: 1.6;
   color: #333;
   background-color:rgb(255, 251, 214)
 }
@@ -11,9 +10,11 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-color:rgb(80, 102, 60);
-  color:rgb(255,251,214;)
+  color:rgb(255,251,214);
 }
-h2>{color:rgb(255, 251, 214);}
+.our-story h2 {color:rgb(255, 251, 214);
+text-align: center;}
+h2{text-align: center;}
 h3 {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,8 +22,10 @@ h3 {
   background-color: #463239;
   color: rgb(255, 251, 214);
 }
+h1{display: none;}
 h4{
   max-width: 1200px;
+  font-size: small;
   margin: 0 auto;
   padding: 20px;
   background-color: #463239;
@@ -31,6 +34,7 @@ h4{
 p{
   max-width: 1200px;
   margin: 0 auto;
+  font-size: .85rem;
   padding: 20px;
   background-color: #463239;
   color: rgb(255, 251, 214);
@@ -38,6 +42,7 @@ p{
 h5{
   max-width: 1200px;
   margin: 0 auto;
+  font-size: small;
   padding: 20px;
   background-color: #463239;
   color: rgb(255, 251, 214);
@@ -48,6 +53,7 @@ div{
 header {
   text-align: center;
   padding: 40px 0;
+  background-color: rgb(80, 102, 60);
 }
 
 header img {
@@ -58,37 +64,71 @@ header img {
 nav {
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 30px;
-  margin-bottom: 50px;
-  background-color: rgb(80, 102, 60);
+  margin-bottom: 20px;
+  margin-top: 2%;
+  background-color: rgb(255, 251, 214)
 }
 nav a {
   text-decoration: none;
-  font-size: 1.2rem;
-  color: #333;
-  background-color: rgb(80, 102, 60);
+  color: rgb(255, 251, 214);
+  font-size: 2rem;
+  background-color: #463239;
+  padding:.5rem;
+  border-radius: 5rem;
 }
+.goose img{
+  width:50%;
+  margin-bottom: 20px;
 
+}
+.goose {display:flex;justify-content:center;}
 nav a:hover {
   color: #007BFF; 
 }
 
-.section-image {
-  text-align: center;
+.our-story img {
+  width:48%;
+  justify-content:space-between;
+  position: relative;
+  left: 1rem;
   margin: 50px 0;
   background-color: rgb(255, 251, 214);
 }
-.content-section h2 {
+.purple {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin:0 auto 20px;
+  background-color: #463239;
+  width:70%;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  background-color: rgb(255,251,214);
+  color:#463239;
+  position: relative;
+  left:5rem;
+}
+ .our-story p {background-color:rgb(80,102,60);
+}
+.contact img {width:48%;
+}
+.contact article{
   background-color: rgb(80, 102, 60);
+  color:rgb(255, 251, 214)
+}
+.contact h2 {color:rgb(255, 251, 214);}
+.contact {display:flex;
+gap:1rem;
 }
 
 
-@media (max-width: 500px) {
+@media (min-width: 1000px) {
   nav {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
+    justify-content: center;
   }
 
   .menu-section {
@@ -103,5 +143,6 @@ nav a:hover {
     padding: 10px;
   }
 }
+nav img {justify-content: center;}
 
 
