@@ -44,8 +44,8 @@ padding: 2rem 4rem;}
     }
     header{flex-wrap: nowrap;
     justify-content:space-between;
-    align-items:flex-end;}
-}/*Move bracket to line 59.*/
+    align-items:flex-end;
+}
     .about-me {display: flex;}
     .about-me h2{flex-basis: 50%;
     margin-left: 2rem;}
@@ -56,7 +56,7 @@ padding: 2rem 4rem;}
     .gallery h2{margin: .5rem;}
     .gallery img{width: 32%;
     margin: .5rem;}
-
+}
 @media (min-width:1500px){
     .gallery{max-height: 120rem;}
 }
