@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
     <head>
-      
+        <link rel="stylesheet" href="stars.css">
         <title>Mars Rovers</title>
         <link rel="stylesheet" href="styles.css">
             <meta charset="UTF-8">
@@ -13,23 +13,23 @@
      <body>
         <header>
             <nav>
-                <a href=""> Overview</a>
+                <a href="#Overview"> Overview</a>
                 <a href="">Robots</a>
                 <a href="">Timeline</a>
                 <a href="">Maps</a>
             </nav>
+            </header>
                 <main>
                     <section class="headline">
+                        <img src= "Images/space-alien.webp" alt="space-alien" class="alien">
                        <div id="stars"></div>
                        <div id="stars2"></div>
                        <div id="stars3"></div>
-                       <div id="rover">
+                       <div class="rover">
                         <img src= "Images/rover.svg" alt="rover">
                        </div>
-                       <div id="planet">
-                        <img src= "Images/planet.svg" alt="planet">
-                       </div>
-                       <div id="mars">
+                        <img src= "Images/planet.svg" alt="planet" class="planet">
+                       <div class="mars">
                         <h1>Mars</h1>
                        </div>
                     </section>
@@ -41,10 +41,19 @@
                         <p>The big science question for the Mars Exploration Rovers is how past water activity on Mars has influenced the red planet's environment over time. While there is no liquid water on the surface of Mars today, the record of past water activity on Mars can be found in the rocks, minerals, and geologic landforms, particularly in those that can only form in the presence of water. That's why the rovers are specially equipped with tools to study a diverse collection of rocks and soils that may hold clues to past water activity on Mars.</p>
                         <h2 id="robots">The Robots</h2>
                         <hr>
-                        <div>
-                            <img src= "Images/mars2020-2.png" alt="mars-rover">
+                        <div class="robots">
+                           <figure>
+                             <img src= "Images/mars2020-2.png" alt="mars-rover">
+                             <figcaption>Mars 2020</figcaption>
+                            </figure>
+                           <figure>
                             <img src= "Images/msl-2.png" alt="msl">
-                            <img src= "Images/marshelicopter-2.png" alt="mars-helicopter">
+                            <figcaption>Curiousity Rover</figcaption>
+                             </figure>
+                            <figure>
+                                <img src= "Images/marshelicopter-2.png" alt="mars-helicopter">
+                                <figcaption>Heliopter Tech Demo</figcaption>
+                            </figure>
                         </div>
                         <h3>Rover Parts</h3>
                         <iframe src="https://mars.nasa.gov/gltf_embed/24584" width="800px" height="450px" frameborder="0"></iframe>
@@ -91,8 +100,14 @@
                         <h2 id="maps">Maps</h2>
                         <hr>
                         <div class="maps">
+                            <figure>
                             <img src= "Images/mera-sol2555.jpeg" alt="spirit">
-                            <img src= "Images/merb-sol4836.jpeg" alt="opportunity">
+                            <figcaption>Spritit's Journey</figcaption>
+                        </figure>
+                        <figure>    
+                        <img src= "Images/merb-sol4836.jpeg" alt="opportunity">
+                        <figcaption>Opportunity's Journey</figcaption>
+                    </figure> 
                         </div>
                     </div>
                 </main>
