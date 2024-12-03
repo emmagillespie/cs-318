@@ -84,7 +84,7 @@ span.rotate{
     transform:rotate(90deg);
     z-index:1;
     top:+32rem;
-    right:-15%;/*Change to -5rem*/
+    right:-5rem;
 }
 section>h2{
     border-bottom:2rem solid #e2512d
