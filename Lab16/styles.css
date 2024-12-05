@@ -85,7 +85,7 @@ top:1.6rem;
     animation-name:rover; 
     animation-duration:5s;
     animation-timing-function:linear;
-    animation-timing-function:1s;
+    animation-timing-function:1s;/*This should be animation-delay*/
     animation-iteration-count:infinite;
     animation-direction:alternate;
 
@@ -143,7 +143,7 @@ figcaption h3{
 .figcaption:hover,h3:hover{
     color:#d15f44;
 }
-@media (mid-width:600px){
+@media (mid-width:600px){/*min-width*/
     section{
         padding:1rem 5rem;  }
 }
@@ -151,7 +151,7 @@ figcaption h3{
     animation-name:alien; 
     animation-duration:5s;
     animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-timing-function:1s;
+    animation-timing-function:1s;/*This should be animation-delay*/
     animation-iteration-count:infinite;
     position:absolute;
     animation-direction:alternate-reverse;
