@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en"> 
-    <div class="parallax">
-        <img src= "Images/grindelwald.jpg" alt="grindelwald">
-    </div>
-    <div class="overlay" class="toggle-nav">
-    </div>
     <head>
         <script src="scripts.js"></script>
         <title>The Eiger</title>
         <link rel="stylesheet" href="styles.css">
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device=-width, initial-scale=1.0"> 
-            <div class="hamburger"onclick="toggleNav()">
-                <hr>
-                <hr>
-                <hr>
-            </div>
      </head>
      <body>
+        <div class="parallax">
+            <img src= "Images/grindelwald.jpg" alt="grindelwald">
+        </div>
+        <div class="overlay toggle-nav">
+        </div>
         <header>
             <nav class="toggle-nav">
                 <a href="about"> About</a>
@@ -25,17 +20,22 @@
                 <a href="climb"> Climb</a>
                 <a href="contact"> Contact</a>
             </nav>
+            <div class="hamburger" onclick="toggleNav()">
+                <hr>
+                <hr>
+                <hr>
+            </div>
             <h1>Eiger</h1>
             <div class="social">
-                <a img src="images/facebook.svg" alt="Facebook"> Facebook</a>
-                <a img src="images/instagram.svg" alt="Instagram"> Instagram</a>
-                <a img src="images/pinterest.svg" alt="Pinterest"> Pinterest</a>
+                 <a href="https://fb.com/"><img src="Images/facebook.svg" alt="Facebook">
+                 <a href="https://www.instagram.com/"><img src="Images/instagram.svg" alt="Instagram">
+                 <a href="https://www.pinterest.com/"><img src="Images/pinterest.svg" alt="pinterest">
             </div>
         </header>
              <main>
                 <section class="call-to-action">
                     <h2>The Eiger</h2>
-                    <a href="#contact"> Explore the Mountains</a>
+                    <a href="#contact" class="button"> Explore the Mountains</a>
                 </section>
               
                 <section class="mountains" id="about"> 
@@ -48,8 +48,8 @@
                     <h3>Gallery</h3>
                     <div>
                         <img src= "Gallery/alpine-panorama.jpg" alt="alpine-panorama" class="panorama">
-                        <img src= "Gallery/alpine.jpg" alt="alpine">
-                        <img src= "Gallery/eiger.jpg" alt="eiger">
+                        <img src= "Gallery/alpine2.jpg" alt="alpine">
+                        <img src= "Gallery/eiger2.jpg" alt="eiger">
                         <img src= "Gallery/gorge-rock.jpg" alt="gorge-rock">
                         <img src= "Gallery/panoramic.jpg" alt="panoramic">
                         <img src= "Gallery/sunrise.jpg" alt="sunrise">
@@ -58,26 +58,27 @@
                 
                 <section class="routes" id="routes">
                     <h3>The Routes</h3>
-                    <div class="button">
+                    <div>
                         <img src= "Images/alpine.jpg" alt="alpine">
                         <h4>West Flank & West Ridge</h4>
                         <h5>AD (G4) with III-, 1650m. 6 hours in ascent, 3 to 4hours in descent.</h5>
                         <p>The West Flank & West Ridge is the easiest route to the summit and the usual descent route for most parties. Route finding on the lower part of the flank can be very difficult, especially in descent if one has not gone up this way initially. Though not that technically difficult it is a big high alpine tour that can be especially serious in poor weather or conditions. Recommended equipment is an ice axe, crampons, 2 ice screws, 2 pitons (or nuts / cams) and 4 to 5 carabiners. There are fixed iron rods on the upper part of the route. Charles Barrington with Christian Almer and Peter Bohren, , made the first ascent of the West Flank & West Ridge on 11 August 1858 (also the first ascent of the peak).</p>
-                        <a href="https://climbingthesevensummits.com/personal-sherpa-climb/"> Climb It</a>
+                        <a class="button" href="https://climbingthesevensummits.com/personal-sherpa-climb/"> Climb It</a>
                     </div>
-                    <div class="button">
+                    <div>
                         <img src= "Images/eiger.jpg" alt="eiger">
                         <h4> North Face</h4>
                         <h5>1938 Route: ED2 (G14) V-, A0, 60Â°, 1800m, one to three or more days.</h5>
                         <p>Since the first ascent of the face in 1938 there have been numerous new routes and variations on the face including many that end on the West Ridge or NE Face and even several Sport Climbing routes low on the face (Eiger NF routes). Still, most climbers seem to be most familiar with and aspire to the original classic 1938 route. But, note that in recent years much of the snow and the ice has melted back so that late in the season the face is often almost bare.</p>
-                        <a href="https://climbingthesevensummits.com/personal-sherpa-climb/"> Climb It</a>
-                        <div class="button">
+                        <a class="button" href="https://climbingthesevensummits.com/personal-sherpa-climb/"> Climb It</a>
+                    </div>
+                        <div>
                             <img src= "Images/jungfraujoch.jpg" alt="jungfraujoch">
                             <h4>Mittellegi Ridge
                             </h4>
                             <h5>D (G5) with IV & fixed ropes, 4 to 8 hours from Mittellegi Hut</h5>
                             <p>The Mittellegi Ridge is probably the most popular route on the Eiger. It is a fantastic steep knife edged ridge offering excellent climbing with little or no objective danger. Yuko Maki with Fritz Amatter, Samuel Brawand and Fritz Steuri made the first ascent of the Mittellegi Ridge on 10 September 1921.</p>
-                            <a href="https://climbingthesevensummits.com/personal-sherpa-climb/"> Climb It</a>
+                            <a class="button" href="https://climbingthesevensummits.com/personal-sherpa-climb/"> Climb It</a>
                         </div>      
                 </section>
                 <section class="contact" id="contact">
@@ -88,7 +89,7 @@
                         <label>Email</label>
                         <input type="email" id="email" name="email">
                         <textarea>Type Message Here...</textarea>
-                        <input type="submit" id="submit" name="submit">
+                        <input type="submit" class="button" id="submit" name="submit">
                     </form>
                 </section>
             </main>

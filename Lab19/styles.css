@@ -35,8 +35,8 @@ header nav{
 }
 header{
     display:flex;
-    justify-content: center;
-    align-items:space-between;
+    justify-content: space-between;
+    align-items:center;
 }
 header nav.show{
     left:0;
@@ -114,14 +114,14 @@ p{
     padding:.5rem 0;
 }
 .routes div{
-    padding 1rem 0 2rem;
+    padding: 1rem 0 2rem;
 }
 .contact{
-    background-image: (url(Images/switzerland.jpg));
+    background-image: url(Images/switzerland.jpg);
     background-position: bottom;
 }
 form{
-    background-color:#000080;
+    background-color:  #00000080;
     padding:1rem;
 }
 label,input[type=text],[type=email],textarea{
@@ -175,7 +175,7 @@ footer{
         margin:left -16rem;
     }
     .call-to-action{
-        padding:20rem calc((100%-900px)/2) 5rem;
+        padding:20rem calc((100% - 900px)/2) 5rem;
     }
     .call-to-action h2{
         font-size:5rem;
@@ -211,7 +211,7 @@ footer{
         grid-gap:1rem;
     }
     .routes h3{
-        grid-area: row-start;column-start;
+        grid-area: 1/1/2/4;
     }
     form{
         max-width:500px;
@@ -220,5 +220,8 @@ footer{
     footer{
         justify-content:flex-start;
         padding:.5rem 1rem;
+    }
+    .social img{
+        justify-content:flex-end;
     }
 }
