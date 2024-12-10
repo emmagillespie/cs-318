@@ -2,19 +2,42 @@
 body {
     font-family: 'Georgia', serif;
     line-height: 1.8;
-    color: #333;
+    color: #000;
     background-color: #c9cfc3;
     padding: 20px;
 }
 
-
+.home{
+    background-image: url(Images/forest.jpg);
+    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-size:cover;
+}
+.home h1{
+    color:#fff;
+}
+.home h3{
+    color:#fff;
+}
 header {
     text-align: center;
     font-family:lora; 
     margin-bottom: 40px;
-    background-image: (url(Images/forest.jpg));
-}
 
+}
+nav a{
+    color:#fff;
+    background-color: #204821;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:large;
+}
+nav{
+    background-color: #204821;
+    padding-top: 4rem;
+    display:flex;
+    align-items: center;
+}
 header h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -38,9 +61,26 @@ header p {
     font-family:lora; 
 }
 
+.about div{
+   display:inline-block; 
+   width:60%;
+}
+.safety{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.safety div:first-child{
+    grid-area: 1/1/2/4;
+}
+.safety h2{
+    color: #000;
+}
+.safety p{
+    color:#000;
+}
 .safety .s1 h3 {
     color:#e2e2e2;
-    margin: 20px, 20px, 20px, 20px;
+    margin: 20px 20px 0px 20px;
     padding: 15px;
     background-color: #2d4d28;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -48,7 +88,7 @@ header p {
 }
 .safety .s1 p {
     color:#e2e2e2;
-    margin: 20px, 20px, 20px, 20px;
+    margin: 0px 20px 20px 20px;
     padding: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #333;
@@ -56,7 +96,7 @@ header p {
 }
 .safety .s2 h3 {
     color:#e2e2e2;
-    margin: 20px, 20px, 20px, 20px;
+    margin: 20px 20px 0px 20px;
     padding: 15px;
     background-color: #2d4d28;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -64,7 +104,7 @@ header p {
 }
 .safety .s2 p {
     color:#e2e2e2;
-    margin: 20px, 20px, 20px, 20px;
+    margin: 0px 20px 20px 20px;
     padding: 15px;
     background-color: #333;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -72,7 +112,7 @@ header p {
 }
 .safety .s3 h3 {
     color:#e2e2e2;
-    margin: 20px, 20px, 20px, 20px;
+    margin: 20px 20px 0px 20px;
     padding: 15px;
     background-color: #2d4d28;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -80,7 +120,7 @@ header p {
 }
 .safety .s3 p {
     color:#e2e2e2;
-    margin: 20px, 20px, 20px, 20px;
+    margin: 0px 20px 20px 20px;
     padding: 15px;
     background-color: #333;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -96,10 +136,13 @@ header p {
     background-color: #c9cfc3;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-
-
-
+.adventure{
+    display:grid;
+      grid-template-columns: 1fr 2fr;
+}
+.adventure div{
+    grid-area: 1/1/2/4;
+}
 
 footer {
     text-align: center;
@@ -109,7 +152,7 @@ footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (max-width: 100px) {
+@media (max-width: 1000px) {
     nav{
         background-color:#204821;
         color:#fff; 
