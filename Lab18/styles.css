@@ -153,20 +153,32 @@ nav{
         justify-content: space-between;
     }
  body {
+
         padding: 10px;
     }
- .about section{
-    grid-template-columns: 1fr 2fr;
+    .about h2{
+        display:flex;
+        justify-content: center;
     }
-.about div{
-    display:grid;
+ .about {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    align-content: flex-start;
+    }
+.about p{
     text-align:left;
-    grid-column: ;
-    grid-row:
+    width:70%;
+    padding-left: 2rem;
+    
+
 }
 .about img {
-    justify-content: flex-start;
     float:left;
+    object-fit: contain;
+    display:flex;
+    align-items: flex-start;
+    
     
 }
 .about div{
@@ -174,13 +186,11 @@ text-align:left;
     justify-content: flex-end; 
     text-align: justify;
     
-    
-
 }
 .about h2{
     text-align:center;
 }
-.adventure div{
+.adventure {
     display:grid;
     grid-template-columns: 1fr, 1fr;
 }
