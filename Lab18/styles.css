@@ -27,13 +27,15 @@ header {
     margin-bottom: 40px;
 
 }
-nav a{
+header nav a{
     color:#fff;
     background-color: #204821;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size:large;
+  
+   
 }
-nav{
+header nav{
     background-color: #204821;
     padding-top: 4rem;
     display:flex;
@@ -146,14 +148,14 @@ footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
+
 @media (min-width: 1000px) {
 nav{
         background-color:#204821;
         color:#fff; 
         justify-content: space-between;
-    }
- body {
-        padding: 10px;
     }
     .about h2{
         display:flex;
@@ -162,40 +164,57 @@ nav{
  .about {
     display:flex;
     justify-content: space-between;
-    padding-bottom: 5rem;
-    align-content: flex-start;
     }
 .about p{
     text-align:left;
-    width:70%;
-    padding-left: 2rem;
-    
+    padding-left: 1.5rem;
+    width:80%;
+   
 
 }
 .about img {
     object-fit: contain;
-    display:flex;
-    align-items: flex-start;
+   width:40%;
+   float:left;
     
     
 }
-.about div{
+.below{
+clear:both;
+width:100%; 
+margin-top:4px;
 text-align:left;
-    justify-content: flex-end; 
-    text-align: justify;
-    padding-bottom: 5rem;
-    align-content: flex-start;
-    text-wrap:wrap;
     
 }
 .about h2{
     text-align:center;
 }
-.ad2 {
-    display:flex;
-   justify-content:space-between
+ .adventures .ad2 {
+    display:inline-block;
+   justify-content:space-between;
+   text-align:left;
 }
-
+.adventures .ad2 p {
+    margin:0;
+    
+}
+.adventures .ad {
+    display:inline-block;
+   justify-content:space-between;
+   text-align:left;
+}
+.adventures .ad p {
+    margin:0;
+    
+}.adventures .ad3 {
+    display:inline-block;
+   justify-content:space-between;
+   text-align:left;
+}
+.adventures .ad3 p {
+    margin:0;
+    
+}
 .safety{
     display:grid; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -203,5 +222,10 @@ text-align:left;
 .safety div:first-child{
     display:grid;
     grid-area: 1/1/2/4;
+}
+.adventures img {
+    max-width: 200px;
+    float:left;
+    margin-right:2rem;
 }
 }
