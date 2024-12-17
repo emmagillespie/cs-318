@@ -153,7 +153,6 @@ nav{
         justify-content: space-between;
     }
  body {
-
         padding: 10px;
     }
     .about h2{
@@ -174,7 +173,6 @@ nav{
 
 }
 .about img {
-    float:left;
     object-fit: contain;
     display:flex;
     align-items: flex-start;
@@ -185,14 +183,17 @@ nav{
 text-align:left;
     justify-content: flex-end; 
     text-align: justify;
+    padding-bottom: 5rem;
+    align-content: flex-start;
+    text-wrap:wrap;
     
 }
 .about h2{
     text-align:center;
 }
-.adventure {
-    display:grid;
-    grid-template-columns: 1fr, 1fr;
+.ad2 {
+    display:flex;
+   justify-content:space-between
 }
 
 .safety{
